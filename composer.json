@@ -1,0 +1,28 @@
+{
+    "name": "liyq/laravel-notification-channel-sms",
+    "description": "SMS from Laravel Notification channel",
+    "keywords": ["SMS","Laravel","Aliyun"],
+    "type": "library",
+    "require": {
+        "alibabacloud/client": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liyq",
+            "email": "2847895875@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Liyq\\Laravel\\Notifications\\SMS\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liyq\\Laravel\\Notifications\\SMS\\SmsServiceProvider"
+            ]
+        }
+    }
+}
