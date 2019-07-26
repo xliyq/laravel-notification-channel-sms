@@ -2,8 +2,8 @@
 
 namespace Liyq\Laravel\Notifications\SMS;
 
-use Barryvdh\Cors\ServiceProvider;
 use Illuminate\Notifications\ChannelManager;
+use Illuminate\Support\ServiceProvider;
 use Liyq\Laravel\Notifications\SMS\Channels\SmsChannel;
 
 class SmsServiceProvider extends ServiceProvider
